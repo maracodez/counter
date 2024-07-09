@@ -1,0 +1,162 @@
+body {
+  background-image: url('image/img.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: Arial, Roboto;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h1 {
+  color: orangered;
+}
+
+.middle-head,
+.left-head {
+  margin-top: 28px;
+}
+
+.middle-head a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+  margin-right: 45px;
+}
+
+.left-head {
+  margin-right: 50px;
+}
+
+#searchBox {
+  background-color: transparent;
+  padding: 10px;
+  border: 1px solid orangered;
+  border-radius: 2px;
+  font-size: 13px;
+}
+
+#searchButton {
+  padding: 11px;
+  background-color: orangered;
+  border: none;
+  border-radius: 2px;
+  margin-left: -10px;
+  color: white;
+  cursor: pointer;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+  vertical-align: top;
+}
+
+.left {
+  margin: 20px;
+}
+
+h2 {
+  font-size: 2.6rem;
+}
+
+h2 span {
+  color: orangered;
+  display: block;
+}
+
+.left p {
+  line-height: 26px;
+  letter-spacing: 1px;
+  width: 590px;
+}
+
+.join {
+  background-color: orangered;
+  border: none;
+  padding: 16px 60px;
+  border-radius: 4px;
+}
+
+.right {
+  margin: 80px;
+  background-color: black;
+  padding: 20px;
+  width: 350px;
+  height: 450px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login {
+  width: calc(90% - 22px);
+  background-color: white;
+  color: orange;
+  padding: 9px 40px;
+  border: none;
+  border-radius: 2px;
+  font-weight: 600;
+  display: block;
+  font-size: 1rem;
+  margin: 40px 20px;
+  cursor: pointer;
+}
+
+.mail,
+.Password {
+  display: block;
+  width: calc(98% - 20px);
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid orange;
+  font-size: 14px;
+  color: #fff;
+}
+
+.login-orange {
+  width: calc(90% - 22px);
+  background-color: orangered;
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  font-weight: 600;
+  display: block;
+  font-size: 1rem;
+  margin: 40px 20px;
+  cursor: pointer;
+}
+
+.login-orange:hover {
+  background-color: #982904;
+  transition: background-color 1s;
+}
+
+.right-para,
+.last {
+  text-align: center;
+}
+
+.right-para span {
+  color: orangered;
+  padding-right: 6px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+}
+
+.footer img {
+  color: white;
+  padding-right: 20px;
+}
