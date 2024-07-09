@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.but-1,
+.but-2 {
+  width: calc(50% - 20px);
+  padding: 10px;
+  background-color: orangered;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  color: white;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.but-2 {
+  background-color: gray;
+}
+
+.but-1:active {
+  background-color: orange;
+}
+
+.but-2:active {
+  background-color: #f0f0f0;
+  color: black;
+}
